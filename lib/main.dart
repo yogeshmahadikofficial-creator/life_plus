@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:life_plus/core/app_constants.dart';
 import 'package:life_plus/core/app_theme.dart';
+import 'package:life_plus/features/vitals_and_emergency/screens/patient_dashboard_screen.dart';
 
 
 void main() {
@@ -16,7 +17,7 @@ class LifePlusApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: AppConstants.appName,
       theme: AppTheme.darkTheme,
-      home: const HomeScreen(),
+      home: PatientDashboardScreen(),
     );
   }
 }
